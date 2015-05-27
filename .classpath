@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/google-play-services_lib"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/android-support-v7-appcompat"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/fisiere facultate/Anul3-Sem2/CTS/dexmaker-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/fisiere facultate/Anul3-Sem2/CTS/dexmaker-mockito-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/fisiere facultate/Anul3-Sem2/CTS/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/denumire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/icon"
+        android:paddingLeft="10dp"
+        android:text="TextView" />
+
+  <!--  <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_alignLeft="@+id/denumire"
+        android:layout_toEndOf="@+id/denumire"
+        android:paddingLeft="10dp"
+        android:text="Descriere" /> --> 
+
+</RelativeLayout>

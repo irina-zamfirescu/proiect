@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="100"
+        android:title="ceva"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ic_action_search"
+        android:icon="@drawable/ic_action_map"
+        android:onClick="harta"
+        android:orderInCategory="200"
+        android:title="ceva"
+        app:showAsAction="ifRoom"/>
+
+</menu>
